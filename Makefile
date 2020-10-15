@@ -14,3 +14,7 @@ a: main.cpp
 
 d: main.cpp
 	g++ $(CDEBUGFLAGS) main.cpp -o d
+
+clear:
+	rm input_file gen correctAnswer a a.out brute code myAnswer d
+
