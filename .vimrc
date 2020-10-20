@@ -12,6 +12,10 @@ let &path.="src/include,/usr/include/AL,"
 nnoremap <F4> :make!<cr>
 nnoremap <F6> :make! d<cr>
 nnoremap  <F5> :!./a<cr>
+" For local replace
+nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
+" For global replace
+nnoremap gR gD:%s/<C-R>///gc<left><left><left>
 "set makeprg=make\ -C\ ../build\ -j9
 set ai 
 set cin
