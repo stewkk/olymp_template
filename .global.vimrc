@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-commentary'
+Plugin 'vim-airline/vim-airline'
 "Plugin 'vim-scripts/Conque-GDB'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
