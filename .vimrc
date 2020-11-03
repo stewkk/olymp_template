@@ -30,3 +30,4 @@ set pastetoggle=<F2>
 set number
 syntax on
 set scrolloff=3
+let g:ycm_confirm_extra_conf = 0
