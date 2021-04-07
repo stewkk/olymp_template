@@ -5,14 +5,13 @@
 		-D_FORTIFY_SOURCE=2 -fsanitize=address -fsanitize=undefined -fno-sanitize-recover \
 		-fstack-protector
 
-CFLAGS= -g -std=c++11 -Wall -Wextra -O2 -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion \
+CFLAGS= -g -std=c++17 -Wall -Wextra -O2 -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion \
 		-Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align \
-		-fsanitize=address -fsanitize=undefined -fno-sanitize-recover \
-		-fstack-protector
+		-fsanitize=address -fsanitize=undefined
 
 
 
-CDEBUGFLAGS= -g -std=c++11 -Wall -Wextra -O0 -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion
+CDEBUGFLAGS= -g -std=c++17 -Wall -Wextra -O0 -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion
 
 all: a
 
