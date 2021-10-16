@@ -3,7 +3,7 @@ g++ main.cpp -o code
 g++ gen.cpp -o gen
 g++ slow.cpp -o brute
 for((i = 1; ; ++i)); do
-    ./gen $i > input_file
+    ./gen > input_file
     ./code < input_file > myAnswer
     ./brute < input_file > correctAnswer
     diff -Z myAnswer correctAnswer > /dev/null || break
